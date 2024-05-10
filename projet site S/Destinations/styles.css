@@ -1,0 +1,201 @@
+/* =======================
+   Styles pour Destinations
+   ======================= */
+
+/* Conteneur des destinations */
+.destinations {
+    padding: 50px 0;
+}
+
+/* Style pour chaque destination individuelle */
+.destination {
+    background-color: #f9f9f9;
+    border-radius: 10px;
+    padding: 20px;
+    margin-bottom: 20px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    background-image: url('fon.jpg'); /* Ajouter l'image de fond */
+    background-size: cover; /* Redimensionner l'image pour couvrir le conteneur */
+    background-position: center; /* Centrer l'image de fond */
+}
+
+/* Style pour l'image de chaque destination */
+.destination img {
+    display: block;
+    width: 100%;
+    max-width: 300px;
+    height: auto;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+/* Style pour le titre de chaque destination */
+.destination h3 {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+    color: #333; /* Couleur du texte */
+}
+
+/* Style pour la description de chaque destination */
+.destination p {
+    font-size: 1.1rem;
+    margin-bottom: 20px;
+    color: #666; /* Couleur du texte */
+}
+
+/* Style pour le bouton de chaque destination */
+.destination .btn {
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+}
+
+.destination .btn:hover {
+    background-color: #021e3b;
+}
+
+/* =======================
+   Styles généraux
+   ======================= */
+
+/* Conteneur général */
+.container {
+    width: 80%;
+    margin: 0 auto;
+    max-width: 1200px;
+}
+
+/* Styles pour le header */
+header {
+    background-color: #333;
+    padding: 20px 0;
+    color: #fff;
+}
+
+header h1 {
+    margin: 0;
+}
+
+/* Styles pour le footer */
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+}
+
+/* Styles pour la navigation */
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+/* Style pour la section des réservations */
+.reservations {
+    background-color: #f9f9f9;
+    padding: 50px 0;
+}
+
+/* Style pour le formulaire de réservation */
+.reservations form {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+/* Style pour les champs du formulaire */
+.reservations input[type="text"],
+.reservations input[type="email"],
+.reservations input[type="date"],
+.reservations textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+/* Style pour le bouton de soumission du formulaire */
+.reservations button[type="submit"] {
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.reservations button[type="submit"]:hover {
+    background-color: #0056b3;
+}
+/* Style pour la section de recherche de voyages */
+.search {
+    background-color: #f9f9f9;
+    padding: 50px 0;
+}
+
+/* Style pour le formulaire de recherche */
+.search form {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+/* Style pour les champs du formulaire */
+.search input[type="text"],
+.search input[type="date"] {
+    width: calc(50% - 10px);
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+/* Style pour le bouton de soumission du formulaire */
+.search button[type="submit"] {
+    width: calc(50% - 10px);
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.search button[type="submit"]:hover {
+    background-color: #0056b3;
+}
+/* Style pour le lien "En savoir plus" */
+.destination .btn {
+    display: inline-block;
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+}
+
+.destination .btn:hover {
+    background-color: #0056b3;
+}

@@ -1,0 +1,53 @@
+/* Styles pour la section À Propos */
+.about {
+    background-color: #f9f9f9; /* Couleur de fond */
+    padding: 50px 0; /* Espacement intérieur */
+    text-align: center; /* Centrer le contenu */
+}
+
+.about .container {
+    max-width: 800px; /* Largeur maximale du contenu */
+    margin: 0 auto; /* Centrer horizontalement */
+}
+
+.about h3 {
+    font-size: 24px; /* Taille de la police du titre */
+    color: #333; /* Couleur du texte */
+    margin-bottom: 20px; /* Marge inférieure */
+}
+
+.about p {
+    font-size: 16px; /* Taille de la police du paragraphe */
+    color: #666; /* Couleur du texte */
+    margin-bottom: 20px; /* Marge inférieure */
+}
+
+.about h4 {
+    font-size: 20px; /* Taille de la police du sous-titre */
+    color: #333; /* Couleur du texte */
+    margin-bottom: 10px; /* Marge inférieure */
+}
+/* Styles pour la navigation principale */
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    text-align: center; /* Centrer les éléments de la liste */
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 10px; /* Marge entre les éléments de la liste */
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #333; /* Couleur du texte */
+    font-size: 18px; /* Taille de la police */
+    transition: color 0.3s ease; /* Animation de transition */
+}
+
+nav ul li a:hover {
+    color: #000080; /* Couleur du texte au survol */
+    font-weight: bold; /* Texte en gras au survol */
+}

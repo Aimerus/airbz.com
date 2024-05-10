@@ -1,0 +1,50 @@
+/* Styles pour la section "Offres Spéciales" */
+.special-offers {
+    background-color: #fff;
+    padding: 50px 0;
+}
+
+.special-offers .container {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.special-offers .offer {
+    width: 45%;
+    margin-bottom: 30px;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+}
+
+.special-offers .offer img {
+    width: 100%; /* Ajuste la largeur de l'image au conteneur */
+    height: 200px; /* Fixe une hauteur pour chaque image */
+    border-radius: 10px; /* Ajoute des coins arrondis */
+    object-fit: cover; /* Redimensionne l'image pour remplir le cadre tout en préservant ses proportions */
+    margin-bottom: 15px;
+}
+
+.special-offers .offer:hover {
+    transform: translateY(-5px);
+}
+
+.special-offers h3 {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.special-offers h4 {
+    font-size: 24px;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.special-offers p {
+    font-size: 18px;
+    color: #666;
+    margin-bottom: 15px;
+}

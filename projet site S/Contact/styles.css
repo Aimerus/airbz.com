@@ -1,0 +1,85 @@
+/* Styles généraux */
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background: #f4f4f4;
+    color: #333;
+}
+
+.container {
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/* Styles pour la navigation */
+nav ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: space-around;
+    background: #333;
+    color: #fff;
+    padding: 15px 0;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+/* Styles pour la section de contact */
+.contact {
+    background: #fff;
+    box-shadow: 0px 0px 20px 0px rgba(0,0,0,0.1);
+    border-radius: 10px;
+    padding: 20px;
+}
+
+.contact h3 {
+    font-size: 2em;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.contact p {
+    font-size: 1.1em;
+    line-height: 1.5;
+    margin-bottom: 20px;
+}
+
+.contact .form-group {
+    margin-bottom: 20px;
+}
+
+.contact label {
+    font-weight: bold;
+    margin-bottom: 5px;
+    display: block;
+}
+
+.contact input[type="text"],
+.contact input[type="email"],
+.contact textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+.contact button[type="submit"] {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    background: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background 0.3s ease;
+}
+
+.contact button[type="submit"]:hover {
+    background: #0056b3;
+}
